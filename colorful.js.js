@@ -1,0 +1,18 @@
+ss=document.querySelector('.size');
+addEventListener('change',function(e){
+    if(e.target){
+        document.body.style.fontSize=`${e.target.value}`;
+    }
+})
+color=document.querySelector('#color');
+color=addEventListener('change',function(e){
+    if(e.target){
+        document.body.style.color=`${e.target.value}`;
+    }
+})
+family=document.querySelector('#fonts');
+font=addEventListener('change',function(e){
+    if(e.target){
+        document.body.style.fontFamily=`${e.target.value}`;
+    }
+})
